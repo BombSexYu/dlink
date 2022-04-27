@@ -48,17 +48,17 @@
         <dependency>
             <groupId>com.dlink</groupId>
             <artifactId>dlink-client-${dlink.flink.version}</artifactId>
-            <scope>${scope.runtime}</scope>
+<!--            <scope>${scope.runtime}</scope>-->
         </dependency>
         <dependency>
             <groupId>com.dlink</groupId>
             <artifactId>dlink-executor</artifactId>
-            <scope>${scope.runtime}</scope>
+<!--            <scope>${scope.runtime}</scope>-->
         </dependency>
         <dependency>
             <groupId>com.dlink</groupId>
             <artifactId>dlink-connector-jdbc-${dlink.flink.version}</artifactId>
-            <scope>${scope.runtime}</scope>
+<!--            <scope>${scope.runtime}</scope>-->
         </dependency>
         <dependency>
             <groupId>com.dlink</groupId>
@@ -68,12 +68,12 @@
         <dependency>
             <groupId>com.dlink</groupId>
             <artifactId>dlink-function</artifactId>
-            <scope>${scope.runtime}</scope>
+<!--            <scope>${scope.runtime}</scope>-->
         </dependency>
         <dependency>
             <groupId>com.dlink</groupId>
             <artifactId>dlink-gateway</artifactId>
-            <scope>${scope.runtime}</scope>
+<!--            <scope>${scope.runtime}</scope>-->
         </dependency>
         <dependency>
             <groupId>com.dlink</groupId>

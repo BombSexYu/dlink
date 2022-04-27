@@ -59,6 +59,9 @@ IDEA 里 Build → Build  Project 。
 
 ```bash
 mvn clean install -Dmaven.test.skip=true
+
+# 报错以下面方式进行打包
+mvn clean install package '-Dmaven.test.skip=true'
 ```
 
 打包最终位于根目录 build 下，`dlink-release-x.x.x.tar.gz` 其大小约为 40 M。
